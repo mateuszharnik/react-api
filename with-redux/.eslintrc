@@ -1,0 +1,13 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "react/jsx-filename-extension": false,
+    "react/jsx-one-expression-per-line": false,
+    "react/jsx-indent": ["error", 2]
+  }
+}

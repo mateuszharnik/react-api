@@ -1,0 +1,38 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3d4852;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f2d024;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffed4a;
+}
+
+.fade-enter,
+.fade-appear,
+.fade-exit-done {
+  opacity: 0;
+}
+
+.fade-enter-done,
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-appear-active,
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out 0.5s;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
